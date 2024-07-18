@@ -1,4 +1,4 @@
-import { useTypewriter, Cursor } from 'react-simple-typewriter'
+import { useTypewriter } from 'react-simple-typewriter'
 
 function Page() {
 
@@ -9,19 +9,21 @@ function Page() {
 
   return (
     <>
-      <div className='flex h-screen'>
-        <div className='place-content-around min-w-3/5 max-w-3xl'>
-          <div className="ml-40">
-            <h1 className='text-5xl mt-20 ml-30 text-font'>I'm a</h1>
-            <p className='text-5xl ml-30 text-font'>
-              {text}
-            </p>
-          </div>
-        </div>
-        <div className='flex-col'>
-          <h2 className="text-5xl text-font items-center mt-100 ml-5 leading-15 font-bold">Fernando Cesar</h2>
-          <button className='ml-40 mt-10 bg-modal px-5 py-3 rounded-full text-font'>Let's go!</button>
+      <div id='home' className='h-screen w-screen// lg:flex lg:place-content-between  lg:pt-20'>
+        <div className='pt-52 // '>
+          <h2 className="text-font text-center text-4xl font-bold //  lg:pl-96 lg:text-5xl lg:pt-55">Fernando Cesar</h2>
+          <button className='hidden'>Let's go!</button>
         </div >
+        <div className='pt-40 // lg:pt-96 lg:mr-80'>
+
+          <div className="flex items-center justify-center // lg:mr-40 lg:min-w-96 ">
+            <h1 className='text-font opacity-70 text-center text-2xl // lg:text-4xl lg:text-left'>I'm a</h1>
+          </div>
+          <p className='text-font text-center  text-4xl font-bold // lg:text-left lg:text-5xl'>
+            {text}
+          </p>
+        </div>
+
       </div >
 
     </>

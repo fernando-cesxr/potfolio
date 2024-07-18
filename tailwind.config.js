@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'nav': '#0F152E',
+        'nav': '#040C18',
         'font': '#C5C5C5',
         'modal': "#483D8B",
-        'modal-grad': "#312771"
+        'bd-color': '#1B78DE'
       },
       keyframes: {
         wiggle: {
@@ -24,6 +24,9 @@ module.exports = {
       },
       margin: {
         '100': '525px'
+      },
+      padding: {
+        '55': '215px'
       }
     },
   },

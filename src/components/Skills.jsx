@@ -7,43 +7,45 @@ import junit from '../images/juni-removebg-preview.png'
 import react from '../images/React-icon.svg.png'
 import kotlin from '../images/Kotlin_Icon.png'
 
+
+
 function skills() {
   return (
     <>
 
       <h2 id="skills" className='text-center mt-16 font-bold text-font text-4xl'>Skills</h2>
-      <div className='flex justify-center my-10'>
+      <div className='flex flex-col justify-center sm:my-10 lg:flex-row '>
         <div>
-          <img src={java} alt='pic' className='size-28 mx-10 block2' />
-          <p className='text-font mt-4 text-center'>Java</p>
+          <img src={java} alt='pic' className='size-28 lg:mx-10 an-slide-side mx-auto mt-16' />
+          <p className='text-font mt-4 text-center font-bold'>Java</p>
         </div>
         <div>
-          <img src={spring} alt='pic' className='size-28 mx-10 block2' />
-          <p className='text-font mt-4 text-center'>Spring Boot</p>
+          <img src={spring} alt='pic' className='size-28 lg:mx-10 an-slide-side mx-auto mt-16' />
+          <p className='text-font mt-4 text-center font-bold'>Spring Boot</p>
         </div>
         <div>
-          <img src={mysql} alt='pic' className='size-28 mx-10 block2' />
-          <p className='text-font mt-4 text-center'>MySQL</p>
+          <img src={mysql} alt='pic' className='size-28 lg:mx-10 an-slide-side mx-auto mt-16' />
+          <p className='text-font mt-4 text-center font-bold'>MySQL</p>
         </div>
         <div>
-          <img src={docker} alt='pic' className='size-28 mx-10 block2' />
-          <p className='text-font mt-4 text-center'>Docker</p>
+          <img src={docker} alt='pic' className='size-28 lg:mx-10 an-slide-side mx-auto mt-16' />
+          <p className='text-font mt-4 text-center font-bold'>Docker</p>
         </div>
         <div>
-          <img src={junit} alt='pic' className='size-28 mx-10 block2' />
-          <p className='text-font mt-4 text-center'>JUNIT</p>
+          <img src={junit} alt='pic' className='size-28 lg:mx-10 an-slide-side mx-auto mt-16' />
+          <p className='text-font mt-4 text-center font-bold'>JUNIT</p>
         </div>
         <div>
-          <img src={python} alt='pic' className='size-28 mx-10 block2' />
-          <p className='text-font mt-4 text-center'>Python</p>
+          <img src={python} alt='pic' className='size-28 lg:mx-10 an-slide-side mx-auto mt-16' />
+          <p className='text-font mt-4 text-center font-bold'>Python</p>
         </div>
         <div>
-          <img src={react} alt='pic' className='size-28 mx-10 block2' />
-          <p className='text-font mt-4 text-center'>React</p>
+          <img src={react} alt='pic' className='size-28 lg:mx-10 an-slide-side mx-auto mt-16' />
+          <p className='text-font mt-4 text-center font-bold'>React</p>
         </div>
         <div>
-          <img src={kotlin} alt='pic' className='size-28 mx-10 block2' />
-          <p className='text-font mt-4 text-center'>Kotlin</p>
+          <img src={kotlin} alt='pic' className='size-28 lg:mx-10 an-slide-side mx-auto mt-16' />
+          <p className='text-font mt-4 text-center font-bold'>Kotlin</p>
         </div>
       </div>
 
