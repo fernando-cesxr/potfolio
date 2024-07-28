@@ -43,6 +43,9 @@
 }
 
 
+
+
+
 .bl {
   animation: appear linear;
   animation-timeline: view();
@@ -68,6 +71,17 @@ body {
   font-weight: 400;
 }
 
+/* body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} */
+
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .gradiant__bg {
   background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 }
@@ -75,6 +89,11 @@ body {
 .gradiant__bg__modal {
   /* global 94%+ browsers support */
   background: linear-gradient(90deg, rgba(24, 57, 93, 1) 50%, rgba(27, 62, 102, 1) 100%);
+}
+
+.gradiant__bg__nav {
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgba(24, 57, 93) 50%, rgba(27, 62, 102) 100%);
 }
 
 
@@ -109,5 +128,4 @@ body {
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: center;
-  width: 350px;
 }

@@ -6,8 +6,9 @@ module.exports = {
       colors: {
         'nav': '#040C18',
         'font': '#C5C5C5',
-        'modal': "#483D8B",
-        'bd-color': '#1B78DE'
+        'modal': "#1A1A1E",
+        'bd-color': '#121214',
+        'button': "#8234E9"
       },
       keyframes: {
         wiggle: {
@@ -27,7 +28,12 @@ module.exports = {
       },
       padding: {
         '55': '215px'
+      },
+      width: {
+        '500px': '500px',
+        '300px': '300px'
       }
+
     },
   },
   plugins: [
